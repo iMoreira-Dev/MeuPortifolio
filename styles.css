@@ -499,8 +499,8 @@ img{
     
     .projetos{
         background-color: rgb(23, 23, 23);
-        width: 220px;
-        height: 150px;
+        width: 210px;
+        height: 140px;
         position: absolute;
         margin-top: 150px;
         border: 1px solid rgba(94, 94, 94, 0.5);
@@ -509,37 +509,37 @@ img{
     
     .projetos:hover{
         border: 3px solid rgb(127, 42, 218);
-        height: 147px;
-        width: 217px; 
+        height: 137px;
+        width: 207px; 
     }
     
     #projeto1{
-        margin-left: 23%;
+        margin-left: 27%;
         transform: translate(-50%);
         margin-top: 100px;
     }
     #projeto2{
-        margin-left: 85%;
+        margin-left: 82%;
         transform: translate(-50%);
         margin-top: 100px;
     }
     #projeto3{
-        margin-left: 23%;
+        margin-left: 27%;
         transform: translate(-50%);
         margin-top: 280px;
     }
     #projeto4{
-        margin-left: 85%;
+        margin-left: 82%;
         transform: translate(-50%);
         margin-top: 280px;
     }
     #projeto5{
-        margin-left: 23%;
+        margin-left: 27%;
         transform: translate(-50%);
         margin-top: 460px;
     }
     #projeto6{ 
-        margin-left: 85%;
+        margin-left: 82%;
         transform: translate(-50%);
         margin-top: 460px;
     }
@@ -682,7 +682,7 @@ img{
     }
     
     .construcao{
-        margin-left: 15px;  
+        margin-left: 10px;  
         margin-top: 40px;
         width: 210px;
         font-family:sans-serif;
@@ -690,8 +690,8 @@ img{
     .pconstrucao{
         color: rgb(182, 182, 182);
         font-family: sans-serif;
-        margin-top: 80px;
-        margin-left: 15px;
+        margin-top: 70px;
+        margin-left: 20px;
         margin-right: 10px;
         font-size: 16px;
     }
