@@ -22,19 +22,31 @@ header{
     text-decoration: none;
     margin-left: 25px;
     color: rgb(121, 121, 121);
+    position: relative;
 }
 
 .as:hover{
     color: rgb(255, 255, 255);
-    animation: sla 1s forwards;
+    animation: sla 2s forwards;
 }
 
 @keyframes sla {
     0% {
-        border-bottom: 1px solid rgba(127,42,218,0.2);
+        border-bottom: 1px solid rgba(127,42,218,0.2);  
+
     }
     100% {
-        border-bottom: 2px solid rgba(127,42,218,1);
+        border-bottom: 1px solid rgba(127,42,218,1);    
+    }
+}
+
+@keyframes sla1 {
+    0% {
+        border: 1px solid rgba(127,42,218,0.2);  
+
+    }
+    100% {
+        border: 1px solid rgba(127,42,218,1);    
     }
 }
 
@@ -43,10 +55,37 @@ header{
 }
 
 h2{
+    color: white;
+    position: absolute;
+    font-family: serif;
+}
+
+#h2{
     margin-left: 199px;
     position: absolute;
     margin-top: 2px;
     color: white;
+    font-family: serif;
+    border-bottom: solid 1px rgb(127,42,218);
+    width: 27px;
+    font-size: 30px;
+}
+
+#h21{
+    margin-left: 238px;
+    position: absolute;
+    margin-top: 2px;
+    color: white;
+    font-family: serif;
+    border-bottom: 1px solid white;
+    width: 31px;
+    font-size: 30px;
+}
+
+#m{
+    color: rgb(127,42,218);
+    border-radius: 1px solid white;
+    z-index: 10000;
 }
 
 #main1{
@@ -69,8 +108,8 @@ h2{
     margin-left: 35px;
     border-radius: 4px;
     border: 1px solid rgba(94, 94, 94, 1);
+    position: relative;
 }
-
 
 #quemsou{    
     position: absolute;
@@ -162,59 +201,79 @@ h2{
     border-radius: 4px;
 }
 
-.projetos:hover{
-    height: 192px;
-    width: 312px; 
-    animation: pro 2s forwards;
-}
-
-@keyframes pro {
-   0%{
-    border: 3px solid rgba(127, 42, 218,0.2);
-   } 
-   100%{
-    border: 3px solid rgba(127, 42, 218,1);
-   } 
-}
-
-@keyframes pro1 {
-    0%{
-     border: 2px solid rgba(127, 42, 218,0.2);
-    } 
-    100%{
-     border: 2px solid rgba(127, 42, 218,1);
-    } 
- }
-
-@keyframes pro2 {
-    0%{
-     border: 1px solid rgba(127, 42, 218,0.2);
-    } 
-    100%{
-     border: 1px solid rgba(127, 42, 218,1);
-    } 
- }
-
 #projeto1{
     margin-left: 60px;
+    border: 1px solid green;
 }
+
+@keyframes pr2 {
+    0%{
+        border-bottom: 1px solid rgba(0, 209, 0, 0.2);
+    }
+    50%{
+        border-bottom: 1px solid rgba(0, 209, 0, 1);
+    }
+    100%{
+        border-bottom: 1px solid rgba(0, 255, 0, 0.2);
+    }
+}
+
+#pr1{
+    color: white;
+    text-decoration: none;
+    margin-left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    animation: pr2 2s infinite;
+    font-family: sans-serif;
+    width: 190px;
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+
 #projeto2{
     margin-left: 390px;
 }
+
+#projeto2:hover{
+    animation: sla1 2s forwards;
+}
+
 #projeto3{
     margin-left: 720px;
 }
+
+#projeto3:hover{
+    animation: sla1 2s forwards;
+}
+
 #projeto4{
     margin-left: 60px;
     margin-top: 360px;
 }
+
+#projeto4:hover{
+    animation: sla1 2s forwards;
+}
+
 #projeto5{
     margin-left: 390px;
     margin-top: 360px;
 }
+
+#projeto5:hover{
+    animation: sla1 2s forwards;
+}
+
 #projeto6{ 
     margin-left: 720px;
     margin-top: 360px;
+}
+
+#projeto6:hover{
+    animation: sla1 2s forwards;
 }
 
 ::-webkit-scrollbar{
@@ -237,28 +296,28 @@ img{
 }
 
 #react2:hover{
-    animation: pro1 2s forwards;
+    animation: sla1 2s forwards;
 }
 #html2:hover{
-    animation: pro1 2s forwards;
+    animation: sla1 2s forwards;
 }
 #css2:hover{
-    animation: pro1 2s forwards;
+    animation: sla1 2s forwards;
 }
 #js2:hover{
-    animation: pro1 2s forwards;
+    animation: sla1 2s forwards;
 }
 #tail2:hover{
-    animation: pro1 2s forwards;
+    animation: sla1 2s forwards;
 }
 #boots2:hover{
-    animation: pro1 2s forwards;
+    animation: sla1 2s forwards;
 }
 #github2:hover{
-    animation: pro1 2s forwards;
+    animation: sla1 2s forwards;
 }
 #git2:hover{
-    animation: pro1 2s forwards;
+    animation: sla1 2s forwards;
 }
 
 #insta1{
@@ -266,7 +325,7 @@ img{
 }
 
 #insta1:hover{
-    animation: pro2 1.5s forwards;
+    animation: sla1 1.5s forwards;
 }
 
 #github1{
@@ -274,7 +333,7 @@ img{
 }
 
 #github1:hover{
-    animation: pro2 1.5s forwards;
+    animation: sla1 1.5s forwards;
 }
 
 #linkedin1{
@@ -282,7 +341,7 @@ img{
 }
 
 #linkedin1:hover{
-    animation: pro2 1.5s forwards;
+    animation: sla1 1.5s forwards;
 }
 
 #email1{
@@ -290,7 +349,7 @@ img{
 }
 
 #email1:hover{
-    animation: pro2 1.5s forwards;
+    animation: sla1 1.5s forwards;
 }
 
 #ttk1{
@@ -298,7 +357,7 @@ img{
 }
 
 #ttk1:hover{
-    animation: pro2 1.5s forwards;
+    animation: sla1 1.5s forwards;
 }
 
 #react2{
@@ -359,7 +418,7 @@ img{
     color: rgb(182, 182, 182);
     font-family: sans-serif;
     margin-top: 80px;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-right: 10px;
     font-size: 18px;
 }
