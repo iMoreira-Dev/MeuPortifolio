@@ -90,7 +90,7 @@ h2{
 
 #main1{
     margin-top: 120px;
-    width: 1100px;
+    width: 1000px;
     height: 580px;
     background-color: rgb(23, 23, 23);
     position: absolute;
@@ -101,20 +101,20 @@ h2{
 }
  
 #img{
-    background-color: rgb(127, 42, 218);
-    width: 510px;
-    height: 505px;
+    height: 510px;
+    width: 300px;
     margin-top: 35px;
-    margin-left: 35px;
+    margin-left: 65px;
     border-radius: 4px;
     border: 1px solid rgba(94, 94, 94, 1);
     position: relative;
+    box-shadow: 0px 0px 20px rgba(152, 152, 152, 0.5);
 }
 
 #quemsou{    
     position: absolute;
     margin-top: -450px;
-    margin-left: 570px;
+    margin-left: 440px;
     font-size: 18px;
     color: rgb(127,42,218);
     font-family: sans-serif;
@@ -124,7 +124,7 @@ h2{
 #nome{
     position: absolute;
     margin-top: -420px;
-    margin-left: 570PX;
+    margin-left: 440PX;
     font-size: 30px;
     color: rgb(255, 255, 255);
     font-family: serif;
@@ -134,7 +134,7 @@ h2{
 #profissao{
     position: absolute;
     margin-top: -380px;
-    margin-left: 570px;
+    margin-left: 440px;
     font-size: 18px;
     color: rgb(255, 255, 255);
     font-family: serif;
@@ -144,12 +144,13 @@ h2{
 #texto{
     position: absolute;
     margin-top: -330px;
-    margin-left: 570px;
+    margin-left: 440px;
     font-size: 16px;
     color: rgb(255, 255, 255);
     padding-right: 25px;
     font-family: sans-serif;
     letter-spacing: 1px;
+    width: 550px;
 } 
 
 #main2{
@@ -203,19 +204,7 @@ h2{
 
 #projeto1{
     margin-left: 60px;
-    border: 1px solid green;
-}
-
-@keyframes pr2 {
-    0%{
-        border-bottom: 1px solid rgba(0, 209, 0, 0.2);
-    }
-    50%{
-        border-bottom: 1px solid rgba(0, 209, 0, 1);
-    }
-    100%{
-        border-bottom: 1px solid rgba(0, 255, 0, 0.2);
-    }
+    border: 1px solid rgb(127, 42, 218);
 }
 
 #pr1{
@@ -231,6 +220,18 @@ h2{
     width: 190px;
     padding-left: 20px;
     padding-bottom: 4px;
+}
+
+#pr1:hover{
+    border-bottom: 1px solid rgb(127,42,218);
+}
+
+#bank{
+    margin-top: 30px;
+}
+
+#ptank{
+    margin-top: 60px;
 }
 
 #projeto2{
@@ -321,7 +322,7 @@ img{
 }
 
 #insta1{
-    margin-left: 610px;
+    margin-left: 480px;
 }
 
 #insta1:hover{
@@ -329,7 +330,7 @@ img{
 }
 
 #github1{
-    margin-left: 690px;
+    margin-left: 570px;
 }
 
 #github1:hover{
@@ -337,7 +338,7 @@ img{
 }
 
 #linkedin1{
-    margin-left: 770px;
+    margin-left: 660px;
 }
 
 #linkedin1:hover{
@@ -345,7 +346,7 @@ img{
 }
 
 #email1{
-    margin-left: 850px;
+    margin-left: 750px;
 }
 
 #email1:hover{
@@ -353,7 +354,7 @@ img{
 }
 
 #ttk1{
-    margin-left: 930px;
+    margin-left: 840px;
 }
 
 #ttk1:hover{
